@@ -6,6 +6,8 @@ import java.awt.event.ActionListener;
 public class BallBounce extends JPanel {
     private int x = 50; // Initial x-coordinate of the ball
     private int y = 50; // Initial y-coordinate of the ball
+
+
     private int xSpeed = 5; // Horizontal speed of the ball
     private int ySpeed = 5; // Vertical speed of the ball
     private int ballSize = 20; // Diameter of the ball
@@ -18,8 +20,6 @@ public class BallBounce extends JPanel {
                 x += xSpeed;
                 y += ySpeed;
 
-                // Check for collisions with the window boundaries
-                if (x < 0 || x + ballSize > getWidth()) {
                     xSpeed = -xSpeed; // Reverse horizontal direction
                 }
                 if (y < 0 || y + ballSize > getHeight()) {

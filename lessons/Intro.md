@@ -40,13 +40,13 @@ theme: gaia
 ---
 ## For instance...
 
-![New UI](./Ch1/NewUI.png "Sign In Page") 
+![New UI](./Intro/NewUI.png "Sign In Page") 
 
 
 ___
 ## Versus...
 
-![Old UI](./Ch1/OldUI.png "Sign In Page") 
+![Old UI](./Intro/OldUI.png "Sign In Page") 
 
 
 ___
